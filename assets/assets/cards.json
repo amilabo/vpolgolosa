@@ -1,0 +1,7875 @@
+{
+  "schemaVersion": 1,
+  "sensitivityVocabulary": [
+    {
+      "id": "family",
+      "title": "Отношения с родителями"
+    },
+    {
+      "id": "sex",
+      "title": "Секс"
+    },
+    {
+      "id": "kids",
+      "title": "Дети"
+    },
+    {
+      "id": "death",
+      "title": "Смерть"
+    },
+    {
+      "id": "money",
+      "title": "Деньги"
+    },
+    {
+      "id": "health",
+      "title": "Здоровье"
+    },
+    {
+      "id": "faith",
+      "title": "Вера"
+    }
+  ],
+  "families": [
+    {
+      "id": "around",
+      "title": "Вокруг"
+    },
+    {
+      "id": "self",
+      "title": "Кто я"
+    },
+    {
+      "id": "close",
+      "title": "Кто рядом"
+    },
+    {
+      "id": "path",
+      "title": "Куда иду"
+    },
+    {
+      "id": "hard",
+      "title": "Что трудно"
+    }
+  ],
+  "categories": [
+    {
+      "id": "everyday",
+      "title": "Про жизнь вокруг",
+      "familyId": "around",
+      "sensitivityTags": []
+    },
+    {
+      "id": "childhood",
+      "title": "Детство и корни",
+      "familyId": "close",
+      "sensitivityTags": []
+    },
+    {
+      "id": "kin",
+      "title": "Родные и дети",
+      "familyId": "close",
+      "sensitivityTags": []
+    },
+    {
+      "id": "self",
+      "title": "Я и мои таланты",
+      "familyId": "self",
+      "sensitivityTags": []
+    },
+    {
+      "id": "values",
+      "title": "Ценности и выборы",
+      "familyId": "self",
+      "sensitivityTags": []
+    },
+    {
+      "id": "feelings",
+      "title": "Чувства",
+      "familyId": "self",
+      "sensitivityTags": []
+    },
+    {
+      "id": "romance",
+      "title": "Любовь и партнёрство",
+      "familyId": "close",
+      "sensitivityTags": []
+    },
+    {
+      "id": "friendship",
+      "title": "Окружение и близость",
+      "familyId": "close",
+      "sensitivityTags": []
+    },
+    {
+      "id": "calling",
+      "title": "Призвание и дело",
+      "familyId": "path",
+      "sensitivityTags": []
+    },
+    {
+      "id": "money",
+      "title": "Деньги",
+      "familyId": "around",
+      "sensitivityTags": [
+        "money"
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Дом",
+      "familyId": "around",
+      "sensitivityTags": []
+    },
+    {
+      "id": "fears",
+      "title": "Страхи и уязвимость",
+      "familyId": "hard",
+      "sensitivityTags": []
+    },
+    {
+      "id": "mistakes",
+      "title": "Ошибки и сожаления",
+      "familyId": "hard",
+      "sensitivityTags": []
+    },
+    {
+      "id": "dreams",
+      "title": "Мечты и будущее",
+      "familyId": "path",
+      "sensitivityTags": []
+    },
+    {
+      "id": "finitude",
+      "title": "Время и конечность",
+      "familyId": "hard",
+      "sensitivityTags": [
+        "death"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "q001",
+      "text": "Какая мелочь в обычном дне надёжно поднимает тебе настроение?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q002",
+      "text": "Какую свою маленькую привычку ты ни на что не променяешь?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q003",
+      "text": "Какое место из детства ты до сих пор помнишь в подробностях?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q004",
+      "text": "Что из того, как тебя растили, ты точно не хочешь повторять?",
+      "categoryId": "childhood",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q005",
+      "text": "В какой компании ты становишься не собой?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q006",
+      "text": "По какому признаку тело раньше головы понимает, что тебе плохо?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q007",
+      "text": "На что тебе не жалко денег, хотя другие считают это пустой тратой?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q008",
+      "text": "Какое своё правило ты нарушаешь чаще всего?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q009",
+      "text": "По какому признаку ты понимаешь, что человеку рядом с тобой хорошо?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q010",
+      "text": "Что труднее произнести вслух — чего ты хочешь в постели или чего не хочешь?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [
+        "sex"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q011",
+      "text": "Каким делом ты занимаешься с удовольствием, даже когда за него не платят?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q012",
+      "text": "О каком несказанном слове ты жалеешь до сих пор?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q013",
+      "text": "Что ты делаешь сегодня только потому, что времени не бесконечно много?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q014",
+      "text": "Что тебе важно оставить после себя?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q015",
+      "text": "Какой звук или запах моментально возвращает тебе хорошее настроение?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q016",
+      "text": "Что в детстве казалось тебе главным признаком взрослости?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q017",
+      "text": "Что тебе даётся так легко, что ты не считаешь это достоинством?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q018",
+      "text": "За что тебя чаще всего благодарят?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q019",
+      "text": "Что ты делаешь просто так — без цели, без результата и без зрителей?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q020",
+      "text": "Что тебе труднее всего себе простить?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q021",
+      "text": "Какая твоя черта раньше мешала, а теперь помогает?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q022",
+      "text": "Какой свой выбор тебе труднее всего объяснить окружающим?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q023",
+      "text": "Во что ты веришь без доказательств?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [
+        "faith"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q024",
+      "text": "Какое чувство ты показываешь реже всего?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q025",
+      "text": "Что тебя веселит даже тогда, когда настроение испорчено?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q026",
+      "text": "Какой знак внимания говорит тебе больше, чем слова?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q027",
+      "text": "Кому ты сообщаешь хорошую новость раньше всех?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q028",
+      "text": "Что должно произойти, чтобы знакомый стал для тебя близким человеком?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q029",
+      "text": "Из-за чего дружба у тебя обычно заканчивается?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q030",
+      "text": "Какую часть своего дела ты выбираешь по доброй воле, а какую терпишь?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q031",
+      "text": "Что ты делаешь потому, что так надо, а не потому, что хочешь?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q032",
+      "text": "Какой была первая покупка на собственные деньги?",
+      "categoryId": "money",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q033",
+      "text": "О чём ты молчишь, когда разговор заходит о деньгах?",
+      "categoryId": "money",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q034",
+      "text": "Какая вещь превращает для тебя любое место в дом?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q035",
+      "text": "Что из родительского дома живёт теперь в твоём?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q036",
+      "text": "Какой бытовой мелочи ты не уступишь тому, с кем живёшь?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q037",
+      "text": "Чего ты боишься, хотя точно знаешь, что это не опасно?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q038",
+      "text": "В какой момент ты чувствуешь себя самозванцем?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q039",
+      "text": "Чего ты боишься настолько, что предпочитаешь об этом не думать?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q040",
+      "text": "Какая ошибка научила тебя большему, чем любой успех?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q041",
+      "text": "Какой свой поступок ты объясняешь себе до сих пор?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q042",
+      "text": "Куда ты отправишься первым делом, когда появится возможность?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q043",
+      "text": "Что ты откладываешь до момента, который всё не наступает?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q044",
+      "text": "Какая мечта тихо исчезла из твоей жизни?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q045",
+      "text": "Что тебе важно успеть, пока есть силы?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q046",
+      "text": "Каким человеком нужно быть, чтобы решиться на ребёнка?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q047",
+      "text": "За какое дело ты берёшься охотнее всего, потому что точно знаешь — получится?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q048",
+      "text": "Что ты никогда не одалживаешь другим?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q049",
+      "text": "Какая еда из детства до сих пор кажется тебе вкуснее всего на свете?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q050",
+      "text": "Что влюбляет тебя в человека быстрее всего?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q051",
+      "text": "Кем мечталось стать в детстве — и что в этом занятии тогда притягивало?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q052",
+      "text": "Какой свой промах ты теперь рассказываешь как анекдот?",
+      "categoryId": "mistakes",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q053",
+      "text": "Что ты чувствуешь, когда у близкого человека всё складывается, а у тебя нет?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q054",
+      "text": "Какое место ты больше не можешь назвать домом?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q055",
+      "text": "Что ты пересматриваешь или перечитываешь в сотый раз, хотя финал давно известен?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q056",
+      "text": "Какая игра из детства могла занять тебя на целый день?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q057",
+      "text": "Какой комплимент попадает в тебя точнее всего?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q058",
+      "text": "О чём тебя бесполезно просить?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q059",
+      "text": "От какой музыки у тебя мурашки?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q060",
+      "text": "С чего для тебя начинается флирт?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q061",
+      "text": "Кому ты можешь позвонить в три часа ночи?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q062",
+      "text": "С какой части работы ты начинаешь день, потому что она нравится?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q063",
+      "text": "Какая покупка последнего года радует тебя до сих пор?",
+      "categoryId": "money",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q064",
+      "text": "В какой части твоего дома тебе лучше всего?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q065",
+      "text": "Перед кем ты снова чувствуешь себя маленьким ребёнком?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q066",
+      "text": "Чей совет оказался правильным, хотя тогда казался ерундой?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q067",
+      "text": "Что ты сделаешь первым делом, если завтра появится свободная неделя?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q068",
+      "text": "Кому ты хочешь успеть сказать спасибо?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q069",
+      "text": "Какой маленький утренний ритуал делает день твоим?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q070",
+      "text": "За что тебя хвалили в детстве чаще всего?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q071",
+      "text": "В каком занятии ты теряешь счёт времени?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q072",
+      "text": "Какое правило вежливости кажется тебе бессмысленным?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q073",
+      "text": "Что раздражает тебя куда сильнее, чем стоило бы?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q074",
+      "text": "Что обязательно должно быть общим у двоих, чтобы отношения держались?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q075",
+      "text": "С кем тебе легко молчать?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q076",
+      "text": "Чем ты занимаешься, когда работа сделана, а уходить ещё рано?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q077",
+      "text": "Сколько, по-твоему, стоит час твоего времени?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q078",
+      "text": "Что появляется у тебя на новом месте первым делом?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q079",
+      "text": "Чем ты спасаешься, когда становится по-настоящему страшно?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q080",
+      "text": "Как ты поступаешь, поняв, что ошибка твоя?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q081",
+      "text": "Чему тебе хочется научиться просто так, без всякой пользы?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q082",
+      "text": "Что стало опорой в дни, когда уходил близкий?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q083",
+      "text": "Какая бытовая мелочь способна испортить тебе весь день?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q084",
+      "text": "Какое правило в твоей семье не обсуждалось вообще?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q085",
+      "text": "Какая твоя вещь рассказывает о тебе лучше всего?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q086",
+      "text": "На что ты не соглашаешься даже за большие деньги?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "money"
+      ]
+    },
+    {
+      "id": "q087",
+      "text": "Как окружающие понимают, что ты злишься?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q088",
+      "text": "Как ты понимаешь, что человек тебе больше не интересен?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q089",
+      "text": "Кому ты доверяешь настолько, что не проверяешь?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q090",
+      "text": "Что в своём деле ты делаешь лучше, чем требуется?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q091",
+      "text": "Куда уходят деньги, когда их вдруг оказывается больше обычного?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q092",
+      "text": "Какой запах означает для тебя, что ты дома?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q093",
+      "text": "О чём тебе труднее всего рассказать тем, кто тебя любит?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q095",
+      "text": "Каким ты хочешь видеть свой обычный день через пять лет?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q096",
+      "text": "Какая вещь живёт у тебя годами, хотя давно пора её выбросить?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q097",
+      "text": "Кто из взрослых разговаривал с тобой в детстве как с равным?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q098",
+      "text": "Какую роль ты обычно берёшь на себя в незнакомой компании?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q099",
+      "text": "В какой ситуации ты выбираешь промолчать, хотя есть что сказать?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q100",
+      "text": "Куда девается обида, если высказать её некому?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q101",
+      "text": "Что можно простить партнёру, но нельзя другу?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q102",
+      "text": "Что ты делаешь для друзей такого, о чём они не просят?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q103",
+      "text": "Чьё признание твоей работы для тебя важнее всего?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q104",
+      "text": "Какая экономия обошлась тебе дороже самой покупки?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q105",
+      "text": "Что в доме ты никому не доверяешь делать?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q106",
+      "text": "Что пугает тебя в мысли о собственной беспомощности?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q107",
+      "text": "Что должно случиться в этом году, чтобы он оказался удачным?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q108",
+      "text": "Что ты делаешь не так, как все вокруг, и переучиваться не собираешься?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q109",
+      "text": "Что тебе запрещали в детстве, а ты делаешь это до сих пор?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q110",
+      "text": "Что служит тебе утешением, когда день не задался?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q111",
+      "text": "От чего ты регулярно отказываешься ради того, что считаешь важным?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q112",
+      "text": "Что прячется за твоей усталостью чаще всего?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q113",
+      "text": "Какая просьба к партнёру даётся тебе труднее всего?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q114",
+      "text": "В какой компании ты чувствуешь себя особенно одиноко?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q115",
+      "text": "Какая причина заставила бы тебя бросить своё дело?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q116",
+      "text": "Что в твоём отношении к деньгам пришло из родительского дома?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q117",
+      "text": "Что должно быть в доме, чтобы в него хотелось возвращаться?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q118",
+      "text": "Какой страх мешает тебе жить так, как хочется?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q119",
+      "text": "Какую свою мечту тебе труднее всего произнести вслух?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q120",
+      "text": "Что в чужом доме сразу говорит тебе, какой человек здесь живёт?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q121",
+      "text": "Какую фразу из детства ты до сих пор слышишь в свой адрес, даже когда рядом никого нет?",
+      "categoryId": "childhood",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q122",
+      "text": "Каким своим делом ты гордишься, но никому о нём не рассказываешь?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q123",
+      "text": "Какой чужой поступок закрывает для тебя человека навсегда?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q124",
+      "text": "После чего к тебе приходит настоящее облегчение?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q125",
+      "text": "Какой разговор о сексе так и не случился в твоих отношениях?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q126",
+      "text": "С кем связь оборвалась без всякой ссоры?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q127",
+      "text": "Зачем ты делаешь то, что делаешь, если убрать отсюда деньги и чужое мнение?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [
+        "money"
+      ]
+    },
+    {
+      "id": "q128",
+      "text": "Кому тебе труднее всего признаться, что денег нет?",
+      "categoryId": "money",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q129",
+      "text": "Какая мечта требует от тебя стать другим человеком?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q131",
+      "text": "Кто первым видит то, что ты делаешь для себя?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q132",
+      "text": "Чему стоит научить ребёнка раньше всего остального?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q133",
+      "text": "Что способно растрогать тебя до слёз, хотя ничего печального в этом нет?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q134",
+      "text": "Что удерживало бы тебя в отношениях, из которых ушла любовь?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q135",
+      "text": "Кому ты давно собираешься написать и всё откладываешь?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q136",
+      "text": "Кто первым поверил, что у тебя получится?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q137",
+      "text": "Что ты хочешь дать детям такого, чего не хватало тебе?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q138",
+      "text": "Каким тоном ты разговариваешь с собой, когда что-то не выходит?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q139",
+      "text": "Из-за какого своего принципа тебе труднее всего с людьми?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q140",
+      "text": "Какое чувство тебе труднее всего назвать словами?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q141",
+      "text": "Какое расставание изменило тебя сильнее всего?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q142",
+      "text": "Откуда в твоей жизни берутся новые друзья сейчас?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q143",
+      "text": "О какой мечте про своё дело ты уже не говоришь вслух?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q144",
+      "text": "Чем наполнился бы твой день, если бы деньги перестали быть вопросом?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": [
+        "money"
+      ]
+    },
+    {
+      "id": "q145",
+      "text": "Как ты обходишься со своим телом, когда ни на что не хватает времени?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q146",
+      "text": "Во что тебе больше не верится, хотя раньше верилось легко?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q147",
+      "text": "Какое своё чувство тебе труднее всего признать?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q150",
+      "text": "Что ты пытаешься изменить в себе дольше всего и всё никак?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q151",
+      "text": "Что ты чувствуешь на самом деле, когда отвечаешь, что всё в порядке?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q152",
+      "text": "В чём тебе труднее всего говорить себе правду?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q153",
+      "text": "Кем ты боишься оказаться в глазах тех, чьё мнение тебе важно?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q154",
+      "text": "Что ты позволяешь себе только тогда, когда рядом никого нет?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q155",
+      "text": "Какое блюдо ты готовишь чаще всего, когда готовить совсем не хочется?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q156",
+      "text": "Какой подарок из детства ты помнишь до сих пор?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q157",
+      "text": "Что ты умеешь такого, чему нигде специально не учат?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q158",
+      "text": "Что ты всегда возвращаешь, даже если об этом уже никто не помнит?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q159",
+      "text": "Что выбивает тебя из колеи быстрее всего?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q160",
+      "text": "Как выглядит для тебя идеальный вечер вдвоём?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q161",
+      "text": "С кем ты хохочешь так, что начинает болеть живот?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q162",
+      "text": "Какой рабочий день ты вспоминаешь с удовольствием?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q163",
+      "text": "Что ты покупаешь себе, когда хочется порадоваться?",
+      "categoryId": "money",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q164",
+      "text": "Что у тебя дома стоит на самом видном месте?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q165",
+      "text": "Какое кино напугало тебя так, что помнится до сих пор?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q166",
+      "text": "Какая твоя оплошность обошлась куда дешевле, чем могла бы?",
+      "categoryId": "mistakes",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q167",
+      "text": "Где тебе хочется однажды пожить хотя бы месяц?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q168",
+      "text": "Что ты хранишь в память о человеке, которого больше нет?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q169",
+      "text": "Что у тебя всегда лежит в кармане или в сумке?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q170",
+      "text": "Кем тебе хотелось казаться в детстве?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q171",
+      "text": "Что у тебя получается лучше, чем год назад?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q172",
+      "text": "Что ты делаешь честно даже тогда, когда никто не проверит?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q173",
+      "text": "Какая новость способна обрадовать тебя на весь день?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q174",
+      "text": "По чему ты скучаешь, когда любимого человека нет рядом?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q175",
+      "text": "Кого ты позовёшь, если срочно нужна помощь с переездом?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q176",
+      "text": "О чём тебя можно спрашивать бесконечно, и ты не устанешь отвечать?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q177",
+      "text": "Сколько денег тебе нужно, чтобы перестать о них думать?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q178",
+      "text": "Как звучит твой дом, когда всё хорошо?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q179",
+      "text": "Что ты делаешь на автомате, даже когда решаешь этого не делать?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q180",
+      "text": "Какое решение выглядит совсем иначе теперь, когда известен результат?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q181",
+      "text": "Что тебе хочется попробовать хотя бы раз в жизни?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q182",
+      "text": "На что тебе стало жалко времени, хотя раньше не было жалко?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q183",
+      "text": "На что уходит твой свободный вечер, когда от тебя никто ничего не ждёт?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q184",
+      "text": "О чём в твоей семье говорили шёпотом?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q185",
+      "text": "Какое прозвище подошло бы тебе лучше имени?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q186",
+      "text": "Какое слово ты не употребляешь принципиально?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q187",
+      "text": "Какой способ успокоиться тебе не помогает, но ты всё равно к нему возвращаешься?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q188",
+      "text": "Что первым ломается в отношениях, когда накапливается усталость?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q189",
+      "text": "Что отталкивает тебя в человеке сразу?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q190",
+      "text": "Что в твоём деле замечаешь только ты?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q191",
+      "text": "Какая покупка в долг для тебя исключена?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q192",
+      "text": "Какой беспорядок в доме тебя совсем не раздражает?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q193",
+      "text": "Какого разговора ты избегаешь дольше всего?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q194",
+      "text": "Как ты просишь прощения?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q195",
+      "text": "Что ты обещаешь себе на следующий год?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q196",
+      "text": "Как ты хочешь, чтобы тебя проводили?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q197",
+      "text": "Какой праздник в году ты ждёшь по-настоящему?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q198",
+      "text": "Какую семейную историю у вас пересказывают снова и снова?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q199",
+      "text": "Какую свою черту ты узнаёшь в других людях и не любишь в них?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q200",
+      "text": "В какой момент ты перестаёшь спорить?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q201",
+      "text": "Как ты принимаешь похвалу?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q202",
+      "text": "Что меняется между двумя людьми, когда в доме появляются дети?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q203",
+      "text": "В какой момент становится ясно, что человеку можно рассказать лишнее?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q204",
+      "text": "Какую часть своей работы ты отдашь первому, кто согласится её взять?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q205",
+      "text": "Как ты ведёшь себя, когда за столом делят счёт?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q206",
+      "text": "Куда ты уходишь, когда дома нужно побыть в одиночестве?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q207",
+      "text": "Что меняет в твоей жизни знание, что близкие не вечны?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q208",
+      "text": "Какая упущенная возможность до сих пор не даёт тебе покоя?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q209",
+      "text": "Что в твоей сегодняшней жизни точно останется через десять лет?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q210",
+      "text": "Какое дело ты откладываешь неделями, хотя занимает оно пять минут?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q211",
+      "text": "Что должно было случиться, чтобы детство для тебя закончилось?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q212",
+      "text": "Что ты откладываешь в заботе о себе, пока не прижмёт?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q213",
+      "text": "Что ты выбираешь, когда правда сделает человеку больно?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q214",
+      "text": "Какое чувство приходит к тебе с опозданием, когда всё уже позади?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q215",
+      "text": "Что для тебя значит близость помимо секса?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q216",
+      "text": "Кто знает о тебе то, чего не знает больше никто?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q217",
+      "text": "Кому твоя работа нужна на самом деле?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q218",
+      "text": "Кому ты одалживаешь деньги, не рассчитывая получить их назад?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q219",
+      "text": "Что переезд забирает у человека навсегда?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q220",
+      "text": "Какой страх достался тебе от родителей?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q221",
+      "text": "Что тебе нужно перестать делать, чтобы приблизиться к тому, чего хочешь?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q222",
+      "text": "Без какой мелкой роскоши тебе уже не хочется жить?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q223",
+      "text": "Что тебе хотелось бы услышать от родителей хотя бы раз?",
+      "categoryId": "childhood",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q224",
+      "text": "В каком деле ты не терпишь от себя халтуры?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q225",
+      "text": "Кому ты помогаешь деньгами, не ожидая ничего взамен?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q226",
+      "text": "Чьё счастье радует тебя больше собственного?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q227",
+      "text": "Чего ты ждёшь от партнёра, но никогда не проговариваешь вслух?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q228",
+      "text": "В какой момент тебе всё-таки удаётся попросить о помощи?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q229",
+      "text": "Кому тебе хочется передать то, что ты умеешь?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q231",
+      "text": "Что мешает тебе чувствовать себя дома там, где ты живёшь?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q232",
+      "text": "Какая твоя мечта зависит не только от тебя?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q233",
+      "text": "Что ты понимаешь про своих родителей только сейчас?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q234",
+      "text": "Какая правда о тебе выясняется только в трудные моменты?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q235",
+      "text": "Что ты говоришь себе, когда изменить уже ничего нельзя?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q236",
+      "text": "На кого из близких ты злишься чаще, чем показываешь?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q237",
+      "text": "С какой твоей чертой близким труднее всего?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q238",
+      "text": "Чьи ожидания тебе тяжелее всего оправдывать?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q239",
+      "text": "Что из твоей жизни работа забирает больше всего?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q240",
+      "text": "Кем тебе хочется быть, когда станешь заметно старше?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q241",
+      "text": "Что даёт тебе силы, когда никто не хвалит и не подгоняет?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q242",
+      "text": "Какое своё убеждение тебе было бы труднее всего пересмотреть?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q243",
+      "text": "Что происходит с тобой, когда рядом плачет человек?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q244",
+      "text": "Чего ты не прощаешь партнёру, но легко прощаешь себе?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q245",
+      "text": "Кого ты держишь рядом только по привычке?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q246",
+      "text": "Кто ты, если убрать всё, чем ты занимаешься?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q247",
+      "text": "О чём ты мечтаешь так, что боишься даже пробовать?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q248",
+      "text": "За что ты извиняешься чаще, чем следовало бы?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q249",
+      "text": "Что заставило бы тебя пойти против собственных принципов?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q250",
+      "text": "По кому ты скучаешь сильнее всего?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q251",
+      "text": "Какую свою потребность ты замечаешь позже всего?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q252",
+      "text": "Какую свою черту ты оправдываешь тем, что переделать её невозможно?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q253",
+      "text": "Что в чужом представлении о тебе давно перестало быть правдой?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q254",
+      "text": "Чего в тебе было больше раньше, чем сейчас?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q255",
+      "text": "С чем в партнёре тебе удалось примириться, хотя поначалу это мешало?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q256",
+      "text": "Чем занята твоя голова по дороге на работу?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q257",
+      "text": "Каким был твой лучший друг в детстве?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q259",
+      "text": "Что вызывает у тебя восторг, как в детстве?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q260",
+      "text": "Как ты обычно знакомишься с теми, кто тебе нравится?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q261",
+      "text": "Кто из друзей знает тебя дольше всех?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q262",
+      "text": "Какая мелочь на работе делает день лучше?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q263",
+      "text": "На чём ты никогда не экономишь?",
+      "categoryId": "money",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q264",
+      "text": "Что у тебя дома сделано своими руками?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q265",
+      "text": "Что заставляет тебя нервничать перед выходом из дома?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q266",
+      "text": "Какую свою покупку ты до сих пор считаешь глупой?",
+      "categoryId": "mistakes",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q267",
+      "text": "Какую свою мечту ты уже можешь потрогать руками?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q268",
+      "text": "Какой возраст кажется тебе самым лучшим?",
+      "categoryId": "finitude",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q269",
+      "text": "Что помогает тебе заснуть, когда сон не идёт?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q270",
+      "text": "Что помнится тебе про первую влюблённость?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q271",
+      "text": "О чём ты предупреждаешь людей заранее, чтобы потом не было претензий?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q272",
+      "text": "Каким способом ты проявляешь нежность?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q273",
+      "text": "Какое прикосновение говорит тебе больше слов?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q274",
+      "text": "Куда ты зовёшь друзей, когда хочется побыть вместе?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q275",
+      "text": "Как ты понимаешь, что пора отдохнуть от своего дела?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q276",
+      "text": "Кому из близких ты можешь сказать, сколько зарабатываешь?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q277",
+      "text": "Что должно быть в доме, где растут дети?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q278",
+      "text": "Что с тобой происходит, когда нужно говорить перед людьми?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q279",
+      "text": "Как ты живёшь с тем, что исправить уже нельзя?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q280",
+      "text": "Кто верит в твои планы сильнее, чем ты?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q281",
+      "text": "Что в собственном старении ты замечаешь уже сейчас?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q282",
+      "text": "Куда ты идёшь в городе, когда нужно проветрить голову?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q283",
+      "text": "За что тебя наказывали чаще всего?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q284",
+      "text": "Что для тебя считается предательством, а для многих — нет?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q285",
+      "text": "Что происходит с твоим настроением, когда тело подводит?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q286",
+      "text": "Из-за чего ты ревнуешь чаще всего?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q287",
+      "text": "Что помогает тебе помириться с другом?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q288",
+      "text": "Кем тебя считают коллеги?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q289",
+      "text": "Каково тебе просить денег у родных?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q290",
+      "text": "Чем ты платишь за то, чтобы жить с кем-то вместе?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q291",
+      "text": "Что ты потеряешь, если всё получится?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q292",
+      "text": "Как ты прощаешь себя?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q293",
+      "text": "Какой первый шаг к мечте кажется тебе самым трудным?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q294",
+      "text": "Чего в детстве тебе было стыдно так, что помнится до сих пор?",
+      "categoryId": "childhood",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q295",
+      "text": "За что ты осуждаешь людей, хотя понимаешь, что не стоит?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q296",
+      "text": "Что трогает тебя в незнакомых людях?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q297",
+      "text": "Какая договорённость держится в твоих отношениях без единого слова?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q298",
+      "text": "Какую дистанцию ты держишь даже с самыми близкими?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q299",
+      "text": "На сколько меньше можно зарабатывать, чтобы дело того стоило?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [
+        "money"
+      ]
+    },
+    {
+      "id": "q300",
+      "text": "Что ты чувствуешь, когда берёшь в долг?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q301",
+      "text": "Кем ты становишься, переступая порог родительского дома?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q302",
+      "text": "Какой звоночек в собственном теле ты предпочитаешь не слышать?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q303",
+      "text": "В чём ты повторяешь ошибки своих родителей?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q304",
+      "text": "Кем ты хочешь быть для своих детей?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q305",
+      "text": "В какой момент тебе хочется, чтобы кто-то сверху всё-таки был?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "faith"
+      ]
+    },
+    {
+      "id": "q306",
+      "text": "Какая эмоция навещает тебя чаще, чем хотелось бы?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q307",
+      "text": "Что изменилось в твоём отношении к сексу за последние годы?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q308",
+      "text": "Какая тема закрыта даже для лучшего друга?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q309",
+      "text": "Какой профессиональный провал жжётся до сих пор?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q310",
+      "text": "Где ты чувствуешь себя в полной безопасности?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q311",
+      "text": "Отчего тебе бывает неловко в моменты телесной близости?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q312",
+      "text": "С какой мечтой тебе пора попрощаться?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q313",
+      "text": "Что стоит разрешать детям, хотя большинство взрослых против?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q314",
+      "text": "Что чаще всего навевает на тебя грусть?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q315",
+      "text": "С какого момента для тебя начинается измена?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q316",
+      "text": "Кому ты отказываешь труднее всего?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q317",
+      "text": "Чего тебе стоили твои амбиции?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q318",
+      "text": "Что рождает в тебе чувство, что без тебя обойдутся?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q319",
+      "text": "Где для тебя проходит граница верности?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "sex"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q320",
+      "text": "Как ты представляешь себя рядом с одним человеком через тридцать лет?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q323",
+      "text": "Какой компромисс обошёлся тебе дороже, чем казалось вначале?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q324",
+      "text": "Чем стоило бы заняться, если бы можно было начать всё заново?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q325",
+      "text": "Во что тебе хотелось бы верить, но не выходит?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [
+        "faith"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q326",
+      "text": "Что у тебя обязательно должно быть в холодильнике?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q327",
+      "text": "Какая история в детстве нравилась тебе больше всех?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q328",
+      "text": "Какая поломка в доме тебе по силам?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q329",
+      "text": "Кому ты уступаешь место, не задумываясь?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q330",
+      "text": "Что тебя смешит, хотя смеяться неприлично?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q331",
+      "text": "Что тебе нравится делать вдвоём молча?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q332",
+      "text": "К кому ты идёшь за советом, когда своих сил не хватает?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q333",
+      "text": "Какая вещь на рабочем месте тебе дороже прочих?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q334",
+      "text": "Что ты купишь первым делом, если неожиданно получишь премию?",
+      "categoryId": "money",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q335",
+      "text": "Какая вещь попала в твой дом случайно и прижилась?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q336",
+      "text": "Что мешает тебе дойти до врача?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q337",
+      "text": "Какая твоя ошибка стоила смешных денег, но запомнилась надолго?",
+      "categoryId": "mistakes",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q338",
+      "text": "Какое место ты хочешь показать близким?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q339",
+      "text": "О чём ты жалеешь, думая о тех, кого уже не вернуть?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q340",
+      "text": "В какое время суток ты становишься собой?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q341",
+      "text": "Кто в твоей семье умел мирить всех?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q342",
+      "text": "Что ты умеешь делать быстрее большинства?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q343",
+      "text": "Какое своё правило ты не станешь объяснять никому?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q344",
+      "text": "Как ты ведёшь себя, когда тобой откровенно любуются?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q345",
+      "text": "Что даёт тебе почувствовать, что тебя хотят?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q346",
+      "text": "Что связывает тебя с людьми, с которыми у тебя мало общего?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q347",
+      "text": "Что в своей работе ты делаешь не так, как учили?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q348",
+      "text": "Как ты относишься к людям, у которых денег заметно больше?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q349",
+      "text": "Каким должен быть дом, чтобы ребёнку в нём было спокойно?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q350",
+      "text": "Чего ты боишься не суметь объяснить близким?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q351",
+      "text": "Кому причитается от тебя объяснение, которого так и не было?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q352",
+      "text": "Во что тебе хочется верить про своё будущее?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q353",
+      "text": "Что ты покупаешь всегда одно и то же, не глядя на новинки?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q354",
+      "text": "Как в твоей семье обходились с болезнью?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "health",
+        "family"
+      ]
+    },
+    {
+      "id": "q355",
+      "text": "Что на тебе надето, когда ты чувствуешь себя лучше всего?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q356",
+      "text": "Чью просьбу о деньгах ты не выполнишь никогда?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q357",
+      "text": "По чему видно, что усталость у тебя не от тела?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q358",
+      "text": "Что выдаёт человека, которому с тобой скучно?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q359",
+      "text": "Как ты понимаешь, что дружба переросла во что-то другое?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q360",
+      "text": "Кого ты считаешь мастером в своём деле?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q361",
+      "text": "Какая покупка откладывается у тебя из-за цены?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q362",
+      "text": "Кого ты пускаешь к себе домой без предупреждения?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q363",
+      "text": "Что в себе пугает тебя сильнее всего?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q364",
+      "text": "Что стоило бы сказать себе десять лет назад?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q365",
+      "text": "Кого ты хочешь видеть за своим столом через двадцать лет?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q366",
+      "text": "Что незаметно съедает твоё время?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q367",
+      "text": "Во что тебя учили верить в детстве?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "faith"
+      ]
+    },
+    {
+      "id": "q368",
+      "text": "Какой свой навык ты считаешь обычным, а другие им восхищаются?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q369",
+      "text": "Чем ты платишь за возможность оставаться при своём мнении?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q371",
+      "text": "Что в собственном теле мешает тебе расслабиться рядом с другим человеком?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q373",
+      "text": "Чего ты лишишься, если перестанешь работать?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q374",
+      "text": "Чего ты боишься в бедности больше всего?",
+      "categoryId": "money",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q375",
+      "text": "Что должно случиться, чтобы дом перестал быть твоим?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q376",
+      "text": "На что тебе хочется времени с родителями?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q377",
+      "text": "Что твои родители так и не узнали о тебе?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q378",
+      "text": "Что у тебя выходит лучше всего, когда никто не стоит над душой?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q379",
+      "text": "Какой твой принцип не выдержал столкновения с жизнью?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q380",
+      "text": "Каково тебе, когда выбирают не тебя?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q381",
+      "text": "Какая мечта пугает тебя не меньше, чем радует?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q382",
+      "text": "Кем тебя хотели видеть родители?",
+      "categoryId": "childhood",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q383",
+      "text": "Что тебе нужно, чтобы почувствовать себя в форме?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q384",
+      "text": "Что способно отнять у тебя способность мечтать?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q385",
+      "text": "Чего ты требуешь от себя такого, чего не потребуешь ни от кого другого?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q386",
+      "text": "Какая твоя слабость однажды пригодилась?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q387",
+      "text": "Чем заняты твои руки, когда думать не хочется?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q388",
+      "text": "Какую свою работу — текст, рисунок, вещь — тебе труднее всего показать другим?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q389",
+      "text": "Чем заполняется день, в котором никто ничего от тебя не хочет?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q390",
+      "text": "За что ты хвалишь себя вслух?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q391",
+      "text": "Какую свою черту ты подчёркиваешь, знакомясь с новыми людьми?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q392",
+      "text": "На каком этапе дела ты обычно застреваешь?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q393",
+      "text": "Какое своё решение ты вспоминаешь с гордостью?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q394",
+      "text": "Какие твои достоинства окружающие видят, а ты нет?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q395",
+      "text": "Кем ты станешь, если однажды перестанешь бояться?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q396",
+      "text": "Что ты называешь красивым, хотя мало кто согласится?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q397",
+      "text": "По каким признакам ты решаешь, что у человека жизнь сложилась?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q398",
+      "text": "Из чего складывается твоя уверенность, что тебя любят?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q399",
+      "text": "По какому жесту ты узнаёшь настоящую заботу?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q400",
+      "text": "Когда к тебе приходит ощущение свободы?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q401",
+      "text": "Когда у тебя возникает ощущение, что денег достаточно?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q402",
+      "text": "За что можно уважать человека, который тебе неприятен?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q403",
+      "text": "Какой напиток сопровождает твой день?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q404",
+      "text": "Какой праздник в детстве ждался больше всех?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q405",
+      "text": "Что тебе нравится в своём отражении?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q406",
+      "text": "Кому ты всегда говоришь правду?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q407",
+      "text": "Какая погода совпадает с твоим настроением?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q408",
+      "text": "Какое свидание тебе хочется повторить?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q409",
+      "text": "Кого ты зовёшь, когда хочется отпраздновать?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q410",
+      "text": "С чего начинается твой рабочий день?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q411",
+      "text": "Какая покупка поднимает тебе настроение, когда грустно?",
+      "categoryId": "money",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q412",
+      "text": "Какой вид из твоего окна?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q413",
+      "text": "Какой детский страх до сих пор с тобой?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q414",
+      "text": "Какая твоя оплошность до сих пор смешит близких?",
+      "categoryId": "mistakes",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q415",
+      "text": "В какую поездку тебе хочется отправиться без попутчиков?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q416",
+      "text": "Что для тебя значит прожить жизнь хорошо?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q417",
+      "text": "Какую вещь ты теряешь чаще всего?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q418",
+      "text": "Какое место в детстве было твоим убежищем?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q419",
+      "text": "Какая часть твоей внешности досталась от родных?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q420",
+      "text": "Какую мелочь ты не позволяешь себе никогда?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q421",
+      "text": "Что успокаивает тебя за одну минуту?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q422",
+      "text": "Что ты замечаешь в человеке первым?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q423",
+      "text": "Кто из друзей отвечает на сообщение быстрее всех?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q424",
+      "text": "Какую задачу ты берёшь, чтобы отдохнуть от других?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q425",
+      "text": "На чём ты экономишь автоматически?",
+      "categoryId": "money",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q426",
+      "text": "Где в доме ты ешь чаще всего?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q427",
+      "text": "От какого звука тебе становится не по себе?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q428",
+      "text": "Какая мелочь вылетает у тебя из головы постоянно?",
+      "categoryId": "mistakes",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q429",
+      "text": "Какую вещь ты хочешь себе купить уже много лет?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q430",
+      "text": "Как ты относишься к своему возрасту?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q431",
+      "text": "Какой у тебя ритуал перед сном?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q432",
+      "text": "Какая игрушка была твоей любимой?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q433",
+      "text": "По какой привычке близкие узнают тебя из тысячи?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q434",
+      "text": "За что ты извиняешься сразу, без разговоров?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q435",
+      "text": "Отчего ты улыбаешься, когда никто не видит?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q436",
+      "text": "С чего чаще всего начинается близость?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q437",
+      "text": "С кем тебе не нужно объяснять шутки?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q438",
+      "text": "О какой своей работе ты рассказываешь с удовольствием?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q439",
+      "text": "Какая твоя трата удивила бы близких?",
+      "categoryId": "money",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q440",
+      "text": "Какая комната у тебя всегда в порядке?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q441",
+      "text": "Что мешает тебе не стесняться своего тела?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [
+        "health",
+        "sex"
+      ]
+    },
+    {
+      "id": "q442",
+      "text": "Что тебе проще всего списать на усталость?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q443",
+      "text": "Какая книга или курс ждут тебя на полке?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q444",
+      "text": "Кого ты вспоминаешь чаще всего из ушедших?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q445",
+      "text": "Под что тебе хорошо убираться?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q446",
+      "text": "Откуда в детстве бралось знание про секс?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q447",
+      "text": "Какое занятие возвращает тебе вкус к жизни?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q448",
+      "text": "Чем ты не поступишься ради карьеры?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q449",
+      "text": "Какой запах у твоего спокойствия?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q450",
+      "text": "Как в паре появляются общие решения?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q451",
+      "text": "Кто первым узнаёт твои плохие новости?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q452",
+      "text": "Какую вещь ты объяснишь лучше любого учебника?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q453",
+      "text": "Как ты считаешь деньги — до копейки или на глаз?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q454",
+      "text": "Какие покупки для дома доставляют тебе удовольствие?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q455",
+      "text": "Перед кем ты робеешь до сих пор?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q456",
+      "text": "Какую свою ошибку ты повторяешь, зная, чем всё кончится?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q457",
+      "text": "Какой навык тебе хочется вернуть?",
+      "categoryId": "dreams",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q458",
+      "text": "О чём тебе будет жаль не поговорить с родителями?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q459",
+      "text": "Какой транспорт тебе нравится больше остальных?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q460",
+      "text": "Как в твоей семье мирились после ссор?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q461",
+      "text": "Сколько тебе нужно времени наедине, чтобы прийти в себя?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q462",
+      "text": "Какую чужую слабость ты понимаешь лучше других?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q463",
+      "text": "Из-за чего у тебя перехватывает дыхание?",
+      "categoryId": "feelings",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q464",
+      "text": "Что вдвоём получается лучше, чем поодиночке?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q465",
+      "text": "Какую компанию ты покидаешь раньше всех?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q466",
+      "text": "Кто больше всех помог тебе оказаться там, где ты сейчас?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q467",
+      "text": "Кому ты доверяешь распоряжаться общими деньгами?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q468",
+      "text": "С чего начинается обживание съёмной квартиры?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q469",
+      "text": "Какая мысль о здоровье возвращается к тебе чаще всего?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q470",
+      "text": "Какая твоя несправедливость к родителям вспоминается до сих пор?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q471",
+      "text": "Ради чего тебе не жалко начать сначала?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q472",
+      "text": "Как выглядел бы твой последний год, если бы срок был известен?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q473",
+      "text": "Что тебе обязательно нужно успеть в выходные?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q474",
+      "text": "Кем тебя считали в школе?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q475",
+      "text": "Какую роль тебе легче всего играть на людях?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q476",
+      "text": "Кого ты защищаешь, даже когда он не прав?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q477",
+      "text": "Как выглядит твоя злость со стороны?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q478",
+      "text": "Какая привычка становится общей у двоих?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q479",
+      "text": "Что тебе даёт дружба, чего не даёт любовь?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q480",
+      "text": "Из-за чего ты можешь поссориться на работе?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q481",
+      "text": "Что для тебя дорого, а для других — нет?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q482",
+      "text": "От чего в доме приходится отказаться, когда появляются дети?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q483",
+      "text": "Чем ты унимаешь тревогу, когда она не отпускает?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q484",
+      "text": "Какие мысли доходят до тебя только задним числом?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q485",
+      "text": "Какое своё желание ты считаешь несерьёзным?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q486",
+      "text": "Чего тебе будет жаль в самом конце?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q487",
+      "text": "Какая покупка заметно изменила твой быт?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q488",
+      "text": "О чём с тобой не разговаривали дома?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q489",
+      "text": "С чем в своей внешности тебе удалось примириться?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q490",
+      "text": "Где для тебя проходит грань между заботой и вмешательством?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q491",
+      "text": "Чем окрашены твои воскресенья?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q492",
+      "text": "Как ты даёшь понять, что хочешь близости?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q493",
+      "text": "Кому ты завидуешь белой завистью?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q494",
+      "text": "Какая твоя идея так и не нашла поддержки?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q495",
+      "text": "Как устроены деньги между тобой и родителями?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q496",
+      "text": "С чем в быту приходится мириться ради тех, с кем живёшь?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q497",
+      "text": "О каком своём желании ты молчишь дольше всего?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q499",
+      "text": "Кем тебе хотелось бы стать, если бы возраст ничего не решал?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q500",
+      "text": "Как ты отдыхаешь, если отдыхать некогда?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q501",
+      "text": "Какое детское желание ты помнишь до сих пор?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q502",
+      "text": "Какое движение доставляет твоему телу удовольствие?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q503",
+      "text": "Кому позволено больше, чем остальным?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q504",
+      "text": "Что происходит с тобой, когда тебя не слышат?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q505",
+      "text": "Как ты отказываешь в близости, чтобы не ранить?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q506",
+      "text": "По каким признакам до тебя доходит, что тебя используют?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q507",
+      "text": "Насколько твоя работа похожа на то, о чём мечталось?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q508",
+      "text": "Ради каких денег ты соглашаешься на то, чего не хочешь?",
+      "categoryId": "money",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q509",
+      "text": "Какие следы прежних хозяев остались в твоём доме?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q510",
+      "text": "Какой свой страх ты никому не называешь?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q511",
+      "text": "Когда ты оказываешься жёстче, чем хотелось бы?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q512",
+      "text": "Что обязательно должно быть в твоей жизни через пять лет?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q513",
+      "text": "Какое дело переезжает у тебя с выходных на выходные?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q514",
+      "text": "Какая несправедливость запомнилась тебе из детства?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q515",
+      "text": "Ради какого удовольствия ты слушаешься тела, а не головы?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q516",
+      "text": "Чем ты меряешь порядочность человека?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q517",
+      "text": "Отчего тебе становится спокойно рядом с человеком?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q518",
+      "text": "Как быть, когда одному хочется близости чаще, чем другому?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q519",
+      "text": "Сколько людей тебе нужно вокруг, чтобы не было пусто?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q520",
+      "text": "Ради чего ты остаёшься в своём деле?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q521",
+      "text": "Чего тебе не досталось из-за экономии?",
+      "categoryId": "money",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q522",
+      "text": "Что тянет тебя в родительский дом?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q523",
+      "text": "Что случится, если ты перестанешь справляться?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q524",
+      "text": "Что стоило бы вернуть, если бы дали один шанс?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q525",
+      "text": "Какое место ты хочешь назвать своим?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q526",
+      "text": "Сколько ты спишь на самом деле?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q527",
+      "text": "Что из своего детства ты повторишь с детьми?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q528",
+      "text": "Чьё тело в юности казалось тебе образцом?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q529",
+      "text": "Во что ты веришь вопреки опыту?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q530",
+      "text": "Какое чувство легче всего принять за любовь?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q531",
+      "text": "Что раздражает тебя в партнёре, но остаётся невысказанным?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q532",
+      "text": "Какую твою особенность друзья принимают без всяких оговорок?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q533",
+      "text": "Какая часть работы не даётся тебе, сколько ни бейся?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q534",
+      "text": "С каким лицом ты слушаешь просьбу одолжить?",
+      "categoryId": "money",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q535",
+      "text": "Где тебе хочется встретить старость?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q536",
+      "text": "Кого ты боишься подвести больше всего?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q537",
+      "text": "Чьи ожидания сильнее всего влияют на твои планы?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q538",
+      "text": "Какая привычка появилась у тебя совсем недавно?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q540",
+      "text": "Какое дело ты не бросаешь годами, хотя оно ничего не приносит?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q541",
+      "text": "Какая привычка окружающих кажется тебе непорядочной?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q542",
+      "text": "Как ты ведёшь себя рядом с тем, кому плохо?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q543",
+      "text": "Какой спор повторяется в отношениях годами?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q544",
+      "text": "Кому ты не звонишь, хотя думаешь о нём?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q545",
+      "text": "С каким человеком ты не станешь работать?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q546",
+      "text": "Какие вещи ты схватишь, если на сборы одна минута?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q547",
+      "text": "Что мешает тебе загадывать надолго?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q549",
+      "text": "Каким ребёнком тебя запомнили?",
+      "categoryId": "childhood",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q550",
+      "text": "Из-за чего ты чаще всего злишься на себя?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q551",
+      "text": "Ради чего стоит терпеть?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q552",
+      "text": "Что с тобой делает долгое одиночество?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q553",
+      "text": "Какой разговор в паре всё время откладывается?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q554",
+      "text": "Что обижает тебя в друзьях чаще всего?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q555",
+      "text": "За какую свою работу тебе неловко брать деньги?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [
+        "money"
+      ]
+    },
+    {
+      "id": "q556",
+      "text": "Чего не хватает твоему дому, чтобы стать своим?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q557",
+      "text": "О чём тебе мечтается вдвоём с кем-то?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q558",
+      "text": "Чего тебе жаль в своём детстве?",
+      "categoryId": "childhood",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q559",
+      "text": "Какую свою мысль ты не рассказываешь, потому что она кажется глупой?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q560",
+      "text": "Какой свой выбор ты защищаешь до сих пор?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q561",
+      "text": "Что держится в тебе дольше остальных чувств?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q562",
+      "text": "Чего тебе хочется в близости, но об этом не говорится?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q563",
+      "text": "Как выглядит твоя поддержка, когда другу плохо?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q564",
+      "text": "От чего в работе ты отказываешься с годами?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q565",
+      "text": "Какую свою идею ты обещаешь себе каждый год?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q566",
+      "text": "Какое событие сильнее всего ускорило твоё взросление?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q567",
+      "text": "На что тебя хватает, когда деваться некуда?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q568",
+      "text": "Чем ты расплачиваешься за верность своим правилам?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q569",
+      "text": "Куда тебя уносит сразу после близости?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q570",
+      "text": "Как усталость и возраст меняют близость?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q571",
+      "text": "Чья дружба закончилась по твоей вине?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q572",
+      "text": "О чём ты думаешь, когда отдыхаешь от работы?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q573",
+      "text": "Чем ты займёшься, когда мечта сбудется?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q574",
+      "text": "Чему тебя научили люди, которых ты не любишь?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q575",
+      "text": "Какое твоё убеждение сменилось с возрастом?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q576",
+      "text": "С каким чувством ты обычно смотришь на себя?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q577",
+      "text": "Чем ты жертвуешь ради отношений?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q578",
+      "text": "Кто нужен тебе больше, чем ты ему?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q579",
+      "text": "Чьё сомнение в тебе сильнее всего подстегнуло тебя в работе?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q580",
+      "text": "От чего придётся отказаться, чтобы получить желаемое?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q581",
+      "text": "Какая похвала кажется тебе незаслуженной?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q582",
+      "text": "В какой ситуации тебе труднее всего жить по своим принципам?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q583",
+      "text": "Что поднимается в тебе, когда близкому хорошо без тебя?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q584",
+      "text": "Что удерживает тебя рядом, кроме любви?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q585",
+      "text": "О чём ты умалчиваешь при друзьях, чтобы не разочаровать?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q586",
+      "text": "Сколько ещё лет тебе хочется заниматься тем же, чем сейчас?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q587",
+      "text": "Какая жизнь идёт мимо, пока ты живёшь свою?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q588",
+      "text": "Какая перемена в тебе за год прошла незамеченной?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q589",
+      "text": "Какая обида живёт в тебе дольше, чем стоило бы?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q590",
+      "text": "Что останется от тебя в деле, когда ты уйдёшь?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q591",
+      "text": "Что страшнее — не попробовать или попробовать и не суметь?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q592",
+      "text": "Что в своём теле ты прячешь от чужих глаз?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q593",
+      "text": "Что в собственной злости тебе труднее всего принять?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q594",
+      "text": "В какие моменты ты себе нравишься?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q595",
+      "text": "От какой части себя ты отказываешься ради спокойствия?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q596",
+      "text": "О чём в себе ты не расскажешь никому?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q597",
+      "text": "Чем ты на людях отличаешься от себя наедине?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q599",
+      "text": "Сколько в тебе осталось от того, кем мечталось стать?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q600",
+      "text": "Что было бы с тобой, если бы никто никогда тебя не оценивал?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q601",
+      "text": "Что становится поводом позвонить родителям?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q602",
+      "text": "Какое приложение ты открываешь первым, проснувшись?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q603",
+      "text": "Что в тебе открылось только с появлением детей?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q604",
+      "text": "Что тебе нравится в теле того, кто рядом?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q605",
+      "text": "С чего у вас начинается ссора?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q606",
+      "text": "К кому ты обращаешься мысленно, когда просить больше некого?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "faith"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q607",
+      "text": "Какие заботы ложатся на тебя, когда болеет близкий?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q608",
+      "text": "Что тебе нравится в семье твоего партнёра?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q609",
+      "text": "Кого из животных ты вспоминаешь как члена семьи?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q610",
+      "text": "Чему тебя научили отношения, которые закончились?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q611",
+      "text": "Как в вашей семье говорят о наследстве?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q612",
+      "text": "Кто из родни твоего поколения тебе ближе всех — и что вас связывает?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q613",
+      "text": "Без чего ты не выдержишь и недели?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q614",
+      "text": "Какая нежность нужна тебе до близости?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q615",
+      "text": "Что мешает тебе рассказать о своём состоянии врачу?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q616",
+      "text": "Какая перемена в родителях бросилась тебе в глаза за последние годы?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q617",
+      "text": "Кому ты пишешь чаще, чем звонишь?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q618",
+      "text": "За что тебе бывает стыдно перед своим ребёнком?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q619",
+      "text": "Что перестало иметь значение во внешности близкого человека?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q620",
+      "text": "Что помогает тебе сделать первый шаг после ссоры?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q621",
+      "text": "О чём ты просишь, когда просишь не человека?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "faith"
+      ]
+    },
+    {
+      "id": "q622",
+      "text": "Что страшнее — заболеть или выхаживать того, кто болеет?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q623",
+      "text": "Как ты стараешься выглядеть перед роднёй партнёра?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q624",
+      "text": "Что тебе приходится терпеть ради животного в доме?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q625",
+      "text": "Что перешло к тебе из прошлых отношений в нынешние?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q626",
+      "text": "Каково тебе, когда партнёр зарабатывает заметно больше?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q627",
+      "text": "Чего тебе больше всего хотелось от родителей в детстве?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q628",
+      "text": "Что ты обещаешь себе сократить и не сокращаешь?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q629",
+      "text": "Что помогает тебе расслабиться рядом с другим человеком?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q630",
+      "text": "По какому признаку ты понимаешь, что нужна помощь, а не отдых?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q631",
+      "text": "По какому случаю стало ясно, что заботиться теперь придётся тебе?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q632",
+      "text": "Что удерживает тебя в телефоне, когда пора спать?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q633",
+      "text": "Из-за чего ты злишься на ребёнка чаще всего?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q635",
+      "text": "Что ты говоришь в ссоре такого, о чём потом жалеешь?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q636",
+      "text": "Какое место кажется тебе особенным, хотя объяснить это трудно?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": [
+        "faith"
+      ]
+    },
+    {
+      "id": "q637",
+      "text": "О чём ты молчишь, пока близкий болеет?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q638",
+      "text": "Что в семье партнёра устроено совсем не так, как у тебя дома?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q639",
+      "text": "Что тебе снится чаще всего?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q640",
+      "text": "Что для тебя меняет штамп в паспорте?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q641",
+      "text": "Как в вашей паре делятся общие расходы?",
+      "categoryId": "money",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q643",
+      "text": "Чем ты глушишь то, о чём не хочется думать?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q644",
+      "text": "Что нужно оставить за порогом, чтобы вы остались вдвоём?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q645",
+      "text": "Кому ты первым скажешь, что тебе по-настоящему плохо?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q646",
+      "text": "Какая забота о родителях даётся тебе труднее всего?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q647",
+      "text": "Как тебя видят те, кто знает тебя только по переписке?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q648",
+      "text": "Чей голос звучит в тебе, когда ты отчитываешь ребёнка?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "kids",
+        "family"
+      ]
+    },
+    {
+      "id": "q649",
+      "text": "Какое прикосновение ты узнаёшь с закрытыми глазами?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q650",
+      "text": "По какому знаку ты понимаешь, что ссора закончилась?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q651",
+      "text": "Какой обряд ты соблюдаешь, не веря в него до конца?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "faith"
+      ]
+    },
+    {
+      "id": "q652",
+      "text": "Откуда берутся силы, когда болезнь близкого затягивается?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q653",
+      "text": "Из-за чего ты можешь поссориться с роднёй партнёра?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q654",
+      "text": "Что ты делаешь, проснувшись раньше будильника?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q655",
+      "text": "Какую свою роль в расставании ты признаёшь только сейчас?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q657",
+      "text": "Какая обида в семье держится дольше всего?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q658",
+      "text": "Чем тебе дорога привычка, которую все советуют бросить?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q659",
+      "text": "Как близкий человек приглашает тебя к близости, не говоря ни слова?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [
+        "sex"
+      ]
+    },
+    {
+      "id": "q660",
+      "text": "Как долго ты тянешь, прежде чем признать, что не справляешься?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q661",
+      "text": "Какой совет родителей ты выслушиваешь молча, лишь бы не спорить?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q662",
+      "text": "Какое сообщение висит у тебя без ответа дольше всего?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q663",
+      "text": "Чего ты не понимаешь в своём ребёнке?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q664",
+      "text": "Как меняется влечение, когда тело близкого меняется?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [
+        "sex",
+        "health"
+      ]
+    },
+    {
+      "id": "q665",
+      "text": "Что в вашей паре не прощается?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q666",
+      "text": "Как ты относишься к совпадениям, которые выглядят как знак?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "faith"
+      ]
+    },
+    {
+      "id": "q667",
+      "text": "Кто в вашей семье берёт на себя больничные хлопоты?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q668",
+      "text": "Что из уклада семьи партнёра прижилось у вас?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q669",
+      "text": "Какая мелочь в чужом доме кажется тебе роскошью?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q670",
+      "text": "По какому признаку становится ясно, что отношения кончились?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q671",
+      "text": "Как ты готовишься к чёрному дню?",
+      "categoryId": "money",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q672",
+      "text": "Чем для тебя обернулось то, сколько детей было в вашей семье?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q673",
+      "text": "В чём тебе труднее всего вовремя остановиться?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q674",
+      "text": "Какая шутка возможна у вас только наедине?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q675",
+      "text": "Что ты боишься узнать о себе, если разобраться до конца?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q676",
+      "text": "О чём ты не рассказываешь родителям, чтобы не начинать спор?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q677",
+      "text": "Что из своей жизни ты не выкладываешь на общее обозрение?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q678",
+      "text": "Что тебе приходится отпускать, пока ребёнок растёт?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q679",
+      "text": "Как ты видишь себя глазами человека, который тебя любит?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q680",
+      "text": "Из-за какой мелочи у вас разгорается настоящая ссора?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q681",
+      "text": "Чем твоя вера отличается от родительской?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "faith",
+        "family"
+      ]
+    },
+    {
+      "id": "q682",
+      "text": "Что ты боишься услышать от врача про близкого?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q683",
+      "text": "Каково тебе на праздниках в семье партнёра?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q684",
+      "text": "Что в твоём доме существует только для уюта и больше ни для чего?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q685",
+      "text": "Что тебе удалось простить родителям с возрастом?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q686",
+      "text": "Что ты перечитываешь в старой переписке?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q687",
+      "text": "Что тебя смешит в твоих детях?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": [
+        "kids"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q688",
+      "text": "Что в облике близкого человека ты разглядываешь украдкой?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q689",
+      "text": "Что тебе нужно после ссоры, чтобы прийти в себя?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q690",
+      "text": "Что случилось с твоей верой, когда было тяжелее всего?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [
+        "faith"
+      ]
+    },
+    {
+      "id": "q691",
+      "text": "Как ты разговариваешь с тем, кому лучше уже не станет?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q692",
+      "text": "Что родителям труднее всего принять в твоей сегодняшней жизни?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q693",
+      "text": "Кого ты продолжаешь читать в сети, хотя вы давно не общаетесь?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q694",
+      "text": "Чего тебе не хватает с тех пор, как появились дети?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q695",
+      "text": "Какие слова о твоей внешности задевают тебя сильнее всего?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q696",
+      "text": "Что выдаёт твою обиду раньше слов?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q697",
+      "text": "Какими словами ты объясняешь ребёнку смерть?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q698",
+      "text": "За что тебе хочется поблагодарить родителей, но слова не находятся?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q699",
+      "text": "Что меняется в разговоре, когда он переходит из переписки в голос?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q700",
+      "text": "Что дети будут рассказывать о тебе, когда вырастут?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q701",
+      "text": "Какими словами ты говоришь о красоте того, кто рядом?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q702",
+      "text": "Какую примету ты помнишь с детства, даже если в неё не веришь?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": [
+        "faith"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q703",
+      "text": "Что меняется в разговоре с родителями, когда они начинают болеть?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "family",
+        "health"
+      ]
+    },
+    {
+      "id": "q704",
+      "text": "Сколько раз в день ты берёшь телефон без повода?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q705",
+      "text": "Что ты позволяешь ребёнку, чего не позволяли тебе?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids",
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q706",
+      "text": "За что тебе хотелось бы получить прощение?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q707",
+      "text": "Какую помощь родители принимают от тебя с трудом?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q708",
+      "text": "Чем ты занимаешь руки, когда телефон отложен?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q709",
+      "text": "Что заменяет тебе молитву?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "faith"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q710",
+      "text": "О чём родители спрашивают тебя чаще всего?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q711",
+      "text": "От чего ты прячешься в телефоне?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q712",
+      "text": "Что помогает тебе верить, что всё не случайно?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [
+        "faith"
+      ]
+    },
+    {
+      "id": "q713",
+      "text": "Что тебе хочется успеть исправить в отношениях с родителями?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q714",
+      "text": "Чего ты ждёшь от того, что будет после смерти?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": [
+        "faith"
+      ]
+    },
+    {
+      "id": "q715",
+      "text": "Какая привычка родителей раздражала раньше, а теперь трогает?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q716",
+      "text": "Сколько тебе лет внутри?",
+      "categoryId": "finitude",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q717",
+      "text": "Что в поведении начальника выводит тебя из себя?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q718",
+      "text": "Что ты знаешь о своих соседях?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q720",
+      "text": "Что изменилось в дружбе, когда у друзей появились дети?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q721",
+      "text": "Какой школьный предмет тебе нравился больше всех?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q722",
+      "text": "Какое блюдо в вашей семье готовят по праздникам?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q723",
+      "text": "Как ты любишь отмечать свой день рождения?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q724",
+      "text": "В какое место тебе неуютно заходить?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q725",
+      "text": "Чего ты не понимаешь в тех, кто младше?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q726",
+      "text": "По какому признаку становится ясно, что человек не тот, за кого себя выдаёт?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q727",
+      "text": "Какое время года твоё?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q728",
+      "text": "Какое место в твоём городе ты показываешь гостям?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q729",
+      "text": "Что ты готовишь, когда хочешь порадовать?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q730",
+      "text": "Что стало твоей первой покупкой для дома?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q731",
+      "text": "Какой год своей жизни ты хочешь прожить ещё раз?",
+      "categoryId": "finitude",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q732",
+      "text": "Как ты споришь с тем, кто выше по должности?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q733",
+      "text": "Из-за чего у тебя могут испортиться отношения с соседями?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q734",
+      "text": "В чём тебе проще соврать, чем объяснять?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q735",
+      "text": "С кем из друзей вы видитесь реже, чем хотелось бы?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q736",
+      "text": "Какой школьный ритуал вспоминается до сих пор?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q737",
+      "text": "Какая семейная шутка понятна только вашим?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q738",
+      "text": "Что тебе дарить бесполезно?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q739",
+      "text": "От какой сцены в кино ты закрываешь глаза?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q740",
+      "text": "Чему тебя научили те, кто моложе?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q741",
+      "text": "Чьи достоинства открылись тебе не сразу?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q742",
+      "text": "Куда ты едешь, чтобы голова отдохнула?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q743",
+      "text": "Что держит тебя в этом городе?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q744",
+      "text": "Какое блюдо ты всегда заказываешь в кафе?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q745",
+      "text": "Каким было твоё первое собственное решение?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q746",
+      "text": "Куда девается время в выходные?",
+      "categoryId": "finitude",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q747",
+      "text": "Что ты делаешь с решением начальства, которое считаешь ошибкой?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q748",
+      "text": "Что ты откладываешь починить в доме?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q749",
+      "text": "В какой своей ошибке ты не признаёшься до сих пор?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q750",
+      "text": "Что ты не прощаешь друзьям?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q751",
+      "text": "Кто из учителей повлиял на тебя сильнее всех?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q752",
+      "text": "Чей характер тебе достался?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q753",
+      "text": "Какая дата в году значит для тебя больше, чем видно со стороны?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q754",
+      "text": "Какое животное вызывает у тебя дрожь?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q755",
+      "text": "Какая привычка твоего поколения кажется странной сегодня?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q756",
+      "text": "Что заставляет тебя передумать о человеке?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q757",
+      "text": "Что меняется в тебе с приходом осени?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q758",
+      "text": "Чем пахнет твой район?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q759",
+      "text": "Как у вас накрывают стол, когда приходят гости?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q760",
+      "text": "Что помнится тебе про первое собственное жильё?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q761",
+      "text": "Что в твоём дне занимает больше времени, чем кажется?",
+      "categoryId": "finitude",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q762",
+      "text": "Что запомнилось тебе с первого рабочего дня?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q763",
+      "text": "Какую переделку в доме ты затеваешь мысленно?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q764",
+      "text": "Чью ошибку тебе пришлось разгребать?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q765",
+      "text": "Кто пришёл на помощь, хотя вы почти не общались?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q766",
+      "text": "Что в школе давалось тебе тяжелее всего?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q767",
+      "text": "Что вы всегда делаете вместе, когда собираетесь?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q768",
+      "text": "Что для тебя портит любой праздник?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q769",
+      "text": "Что ты проверяешь дважды, даже зная, что всё в порядке?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q770",
+      "text": "Что из твоей молодости уже никому не объяснить?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q771",
+      "text": "Чья доброта оказалась расчётом?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q772",
+      "text": "В какую погоду тебе лучше всего работается?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q773",
+      "text": "Какой город сразу показался тебе своим?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q774",
+      "text": "Для кого тебе приятнее всего готовить?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q775",
+      "text": "Как прошла твоя первая поездка в одиночку?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q776",
+      "text": "Что ты успеваешь за пятнадцать свободных минут?",
+      "categoryId": "finitude",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q777",
+      "text": "О чём ты умалчиваешь на собеседовании?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q778",
+      "text": "Что в твоём доме сделано наспех и так и осталось?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q779",
+      "text": "Ради чьего спокойствия тебе приходится врать?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q780",
+      "text": "Что чаще всего мешает тебе сблизиться с новым человеком?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q781",
+      "text": "Что с тобой происходит перед экзаменом?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q782",
+      "text": "Кому из родных ты звонишь просто так?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q783",
+      "text": "Кого тебе не хватает за праздничным столом?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q784",
+      "text": "Какая мысль мешает тебе заснуть?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q785",
+      "text": "Что перешло к тебе от старших незаметно?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q786",
+      "text": "Кому не стоило доверять?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q787",
+      "text": "Что ты делаешь в первый по-настоящему тёплый день?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q788",
+      "text": "Что ты потеряешь, если уедешь отсюда?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q789",
+      "text": "Что ты ешь, когда никто не видит?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q790",
+      "text": "Что перестало ждать своей очереди, когда времени стало меньше?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q791",
+      "text": "Что ты отвечаешь, когда спрашивают, кем ты работаешь?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q792",
+      "text": "Что ты одалживаешь соседям?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q793",
+      "text": "Как ты понимаешь, что тебе врут?",
+      "categoryId": "mistakes",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q794",
+      "text": "Кто приходит к тебе только с бедой?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q795",
+      "text": "Чему в школе учили зря?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q796",
+      "text": "Что в вашей семье передают из поколения в поколение?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q797",
+      "text": "Что ты хочешь успеть объяснить младшим?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q798",
+      "text": "О ком ты судишь строже, чем следовало?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q799",
+      "text": "Чего тебе не хватает зимой?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q800",
+      "text": "Что в твоём городе изменилось так, что тебе жаль?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q801",
+      "text": "Что в чужом застолье тебя утомляет?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q802",
+      "text": "В какие годы время шло для тебя медленнее всего?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q803",
+      "text": "Кому ты подчиняешься легко, а кому с трудом?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q804",
+      "text": "Что твой дом говорит о тебе такого, чего ты не говоришь?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q805",
+      "text": "Какая твоя ложь однажды всплыла?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q806",
+      "text": "Что ты терпишь в друге ради общего прошлого?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q807",
+      "text": "Что видят в тебе те, кто вдвое младше?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q808",
+      "text": "Какой возраст раньше казался тебе старостью?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q809",
+      "text": "Что с тобой делает время без работы?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q811",
+      "text": "Кто перестал тебе верить?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q813",
+      "text": "Что твоё поколение потеряло безвозвратно?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q814",
+      "text": "Какой день из прошлого ты помнишь целиком?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q815",
+      "text": "Как ты уходишь с места, где стало плохо?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q816",
+      "text": "Что мешает тебе обустроить дом по-своему?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q818",
+      "text": "Чему тебя научили те, кого уже нет?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q819",
+      "text": "Каково тебе сообщать человеку плохую новость по работе?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q820",
+      "text": "Что в доме держится только потому, что так было всегда?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q821",
+      "text": "Какую свою ложь ты считаешь оправданной?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q822",
+      "text": "С чем в своей жизни тебе труднее всего прощаться?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q823",
+      "text": "Что работа изменила в тебе сильнее всего?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q824",
+      "text": "Кого тебе было бы труднее всего потерять?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q825",
+      "text": "Чего ты не простишь работодателю?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q826",
+      "text": "Кто в вашем доме моет посуду?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q827",
+      "text": "Что ты умеешь делать красиво?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q828",
+      "text": "Что ты делаешь, когда скучно?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q829",
+      "text": "Какой самый безрассудный твой поступок?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q830",
+      "text": "Какое обращение к себе тебе приятно?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q831",
+      "text": "Кому ты помогаешь, не задумываясь?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q832",
+      "text": "Что кажется тебе несправедливым в мелочах жизни?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q833",
+      "text": "Какая чужая профессия тебе интересна?",
+      "categoryId": "calling",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q834",
+      "text": "Какое слово из детского языка ты до сих пор говоришь?",
+      "categoryId": "childhood",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q835",
+      "text": "Какое домашнее дело ты делаешь охотнее прочих?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q836",
+      "text": "Какую музыку ты слушаешь, когда никто не выбирает за тебя?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q837",
+      "text": "Какое место навевает на тебя скуку?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q838",
+      "text": "На что ты решишься на спор?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q839",
+      "text": "Что ты рассказываешь о себе при знакомстве?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q840",
+      "text": "Как ты поступаешь, когда на улице просят денег?",
+      "categoryId": "values",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q841",
+      "text": "Как ты поступаешь, столкнувшись с нечестной игрой?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q842",
+      "text": "Что нужно, чтобы начать заново в новом деле?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q843",
+      "text": "Какая традиция кажется тебе своей?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q844",
+      "text": "Какая домашняя работа достаётся тебе всегда?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q845",
+      "text": "Какую коллекцию тебе хотелось бы собрать?",
+      "categoryId": "self",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q846",
+      "text": "От какого повторяющегося дела в своём дне тебе хочется избавиться первым?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q847",
+      "text": "Что ты пробуешь первым, когда видишь новое?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q848",
+      "text": "Чьё уважение тебе важно?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q849",
+      "text": "Кому ты не поможешь никогда?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q850",
+      "text": "Что ты делаешь, когда обвиняют напрасно?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q851",
+      "text": "Чему ты учишься сейчас?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q852",
+      "text": "Что в твоей речи выдаёт, откуда ты родом?",
+      "categoryId": "childhood",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q853",
+      "text": "Какой порядок в твоём доме заведён без всякого обсуждения?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q854",
+      "text": "Какую книгу или фильм ты советуешь всем подряд?",
+      "categoryId": "everyday",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q855",
+      "text": "Чем ты заполняешь пустые часы?",
+      "categoryId": "everyday",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q856",
+      "text": "Что заставляет тебя пойти на риск?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q858",
+      "text": "Что останавливает тебя, когда хочется вмешаться?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q859",
+      "text": "С какой несправедливостью ты не миришься?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q860",
+      "text": "Что мешает тебе сменить занятие?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q861",
+      "text": "Что тебе дорого в месте, откуда ты родом?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q862",
+      "text": "Из-за какого домашнего дела у вас чаще всего спорят?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q863",
+      "text": "Какое занятие ушло из твоей жизни, а жаль?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q864",
+      "text": "Что стало для тебя рутиной, хотя когда-то радовало?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q865",
+      "text": "Что заставляет тебя перестраховываться?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q866",
+      "text": "Какая репутация тебе не нужна?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q867",
+      "text": "Чья беда трогает тебя сильнее прочих?",
+      "categoryId": "feelings",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q868",
+      "text": "Когда тебе пришлось смолчать вместо того, чтобы вступиться?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q869",
+      "text": "Чем придётся заплатить за смену дела?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q870",
+      "text": "Что из своих корней ты не хочешь передавать дальше?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q871",
+      "text": "Какую домашнюю работу тебе приходится доделывать за другими?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q872",
+      "text": "Во что ты вкладываешься, хотя это никому не нужно?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q873",
+      "text": "Какая часть жизни идёт у тебя на автопилоте?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q874",
+      "text": "Какое решение далось тебе без раздумий?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q875",
+      "text": "За что тебя ценят на самом деле?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q876",
+      "text": "Какую помощь тебе оказал незнакомый человек?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q877",
+      "text": "Что ты думаешь о людях, которым всё достаётся легко?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q878",
+      "text": "Что останется от тебя прежнего, если сменить дело?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q879",
+      "text": "Кем ты себя чувствуешь среди чужих?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q880",
+      "text": "Как вы делите домашние дела?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q881",
+      "text": "Что тебе хочется сделать своими руками?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q882",
+      "text": "Что ты делаешь, лишь бы не сидеть без дела?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q883",
+      "text": "Когда ты идёшь ва-банк?",
+      "categoryId": "values",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q884",
+      "text": "Когда тебе больше всего хочется, чтобы тебя заметили?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q885",
+      "text": "Что мешает тебе просить помощи у чужих?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q886",
+      "text": "Что ты замечаешь в доме, а другой не видит?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q887",
+      "text": "Какая работа кажется тебе красивой?",
+      "categoryId": "calling",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q888",
+      "text": "Что для тебя страшнее — суета или пустота?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q889",
+      "text": "Что для тебя опаснее — сделать или не сделать?",
+      "categoryId": "dreams",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q891",
+      "text": "Кто для тебя важнее собственных интересов?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q892",
+      "text": "Какую работу по дому ты считаешь не своей?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q893",
+      "text": "Чьё умение тебе хочется перенять?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q894",
+      "text": "Чего тебе не хватает в жизни, которая вроде бы устроена?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q895",
+      "text": "Какой риск ты не повторишь?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q896",
+      "text": "Кто в семье помнит про врачей и документы?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "health"
+      ]
+    },
+    {
+      "id": "q897",
+      "text": "Чем ты занимаешься, когда хочется забыть о пользе?",
+      "categoryId": "self",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q898",
+      "text": "Что уходит из жизни вместе с новизной?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q899",
+      "text": "Чего тебе стоила осторожность?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q900",
+      "text": "Что случается с домом, когда ты уезжаешь?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q901",
+      "text": "Что мешает тебе заниматься тем, что нравится?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q902",
+      "text": "За что тебе хочется благодарности по хозяйству?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q903",
+      "text": "Какая твоя способность так и осталась неразвитой?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q904",
+      "text": "Из-за чего домашние дела превращаются в обиду?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q905",
+      "text": "Что в распределении быта кажется тебе несправедливым?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q906",
+      "text": "Каким талантом того, кто рядом, ты хвастаешься перед другими?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q907",
+      "text": "Как ты хочешь, чтобы встречали твою радость?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q908",
+      "text": "За что тебе хочется сказать спасибо человеку рядом?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q909",
+      "text": "Как выглядит поддержка, которая тебе подходит?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q910",
+      "text": "Что в тебе просыпается рядом с любимым человеком?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q911",
+      "text": "Что вам хочется попробовать вместе впервые?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q912",
+      "text": "Какой у вас есть маленький ежедневный ритуал?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q913",
+      "text": "Как вы рассказываете другим историю вашего знакомства?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q914",
+      "text": "Какое умение близкого человека тебе не даётся?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q915",
+      "text": "Как встречает твою удачу тот, кто рядом?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q916",
+      "text": "Какая ежедневная забота о тебе стала незаметной?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q917",
+      "text": "Чего ты ждёшь от близкого, когда тебе плохо?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q918",
+      "text": "Чему тебя научил близкий человек?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q919",
+      "text": "Куда вы поедете вдвоём, если можно куда угодно?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q920",
+      "text": "Какая ваша традиция появилась сама собой?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q921",
+      "text": "С какого момента вы стали говорить о себе «мы»?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q922",
+      "text": "Какая мелочь в любимом человеке тебя умиляет?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q923",
+      "text": "Чему в жизни близкого человека ты радуешься как своему?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q925",
+      "text": "По чему ты понимаешь, что тебя услышали?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q926",
+      "text": "На что ты решаешься только благодаря близкому?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q927",
+      "text": "Какое дело вам стоит начать вдвоём?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q928",
+      "text": "Что в вашем доме значит больше, чем выглядит?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q929",
+      "text": "Что появилось в тебе такого, чего не было до вас двоих?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q930",
+      "text": "Какое качество близкого человека тебе хотелось бы перенять?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q931",
+      "text": "Какой успех любимого человека ты вспоминаешь с гордостью?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q932",
+      "text": "Что близкий человек делает для тебя, не считая это чем-то особенным?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q933",
+      "text": "Что близкий человек говорит, когда тебе трудно?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q934",
+      "text": "Что в себе ты перестаёшь прятать рядом с близким?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q935",
+      "text": "Какой общий план вы откладываете уже давно?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q936",
+      "text": "Какая вещь стала вашим общим символом?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q937",
+      "text": "За что ты уважаешь того, с кем живёшь?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q938",
+      "text": "Что тебе нужно услышать в ответ на свою хорошую новость?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q939",
+      "text": "Чем близкий человек облегчает тебе жизнь?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q940",
+      "text": "Как ты просишь о поддержке, не говоря прямо?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q941",
+      "text": "Что видит в тебе любимый человек такого, чего не видишь ты?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q942",
+      "text": "Чему вы могли бы научиться вдвоём?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q943",
+      "text": "Что вы делаете вместе такого, чего не делают другие пары?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q944",
+      "text": "Какую сторону близкого человека не видит никто, кроме тебя?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q945",
+      "text": "Как вы празднуете то, что удалось?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q946",
+      "text": "Какую твою привычку близкий человек принимает с улыбкой?",
+      "categoryId": "romance",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q947",
+      "text": "Что тебе помогает больше — совет или молчание рядом?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q948",
+      "text": "Что было бы с тобой без этого человека?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q949",
+      "text": "Каким ты представляешь ваш следующий год?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q950",
+      "text": "Каким ты видишь любимого человека в его лучший день?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q951",
+      "text": "Каково тебе, когда у близкого получается лучше, чем у тебя?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q952",
+      "text": "За что тебе стоило бы поблагодарить того, с кем вы расстались?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q953",
+      "text": "Когда близкий человек понял тебя без объяснений?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q954",
+      "text": "Какую общую цель вы ещё не назвали вслух?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q955",
+      "text": "Что в характере близкого тебя до сих пор удивляет?",
+      "categoryId": "romance",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q957",
+      "text": "Что близкий человек отдал ради тебя, не сказав об этом?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q958",
+      "text": "В чём тебе важно, чтобы тебя приняли, а не исправляли?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q959",
+      "text": "Что вы хотите построить вместе к старости?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q960",
+      "text": "В чём близкий человек оказался сильнее, чем казалось вначале?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q961",
+      "text": "Какой поступок близкого человека тебя восхитил?",
+      "categoryId": "romance",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q962",
+      "text": "За что ты любишь своих друзей?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q963",
+      "text": "Чья помощь выручила тебя недавно?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q964",
+      "text": "Чья хорошая новость подняла тебе настроение?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q965",
+      "text": "Кто из друзей ни разу тебя не подвёл?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q966",
+      "text": "Какую вашу общую историю ты любишь вспоминать?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q967",
+      "text": "Куда тебе хочется поехать с друзьями?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q968",
+      "text": "Чем ты гордишься в своих родных?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q969",
+      "text": "Какая забота родных вспоминается с теплом?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q970",
+      "text": "Какая семейная привычка тебе дорога?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q971",
+      "text": "Что в твоём ребёнке тебя радует каждый день?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q972",
+      "text": "Чем ваш семейный уклад удивил бы чужого человека?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q973",
+      "text": "Что твой друг делает так, как ты не умеешь?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q974",
+      "text": "Кто из друзей помогал тебе, ничего не прося взамен?",
+      "categoryId": "friendship",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q975",
+      "text": "Как ты поздравляешь тех, кто тебе дорог?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q976",
+      "text": "В чём на друга можно положиться без оговорок?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q977",
+      "text": "Какая традиция держится у вас с друзьями годами?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q978",
+      "text": "Что вам стоит попробовать всей компанией?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q979",
+      "text": "Какое качество твоих родителей тебе хочется иметь?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q980",
+      "text": "Что в родительской заботе доходит до тебя только теперь?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q981",
+      "text": "Что хорошего дал тебе родительский дом?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q982",
+      "text": "Отчего вы смеётесь всей семьёй?",
+      "categoryId": "kin",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q983",
+      "text": "Какой семейный праздник вы придумали сами?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q984",
+      "text": "Какую черту друга ты хвалишь при других?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q985",
+      "text": "Какая помощь друга осталась без благодарности?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q986",
+      "text": "Чей успех ты переживаешь как собственный?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q987",
+      "text": "Кто остался рядом, когда стало неудобно дружить с тобой?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q988",
+      "text": "Что вы делаете при встрече всегда одинаково?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q989",
+      "text": "Какой общий замысел вы всё никак не осуществите?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q990",
+      "text": "Что твой ребёнок умеет лучше тебя?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q991",
+      "text": "Кто из родных научил тебя тому, что ты умеешь лучше всего?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q992",
+      "text": "Чему тебя научили родные без всяких слов?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q993",
+      "text": "Какой момент с родными тебе хочется повторить?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q994",
+      "text": "Чем ваша семья не похожа на другие?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q995",
+      "text": "Чем твой друг лучше, чем сам о себе думает?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q996",
+      "text": "Что друг сделал для тебя такого, что ты помнишь годами?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q997",
+      "text": "О чьих достижениях ты рассказываешь другим с удовольствием?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q998",
+      "text": "Что друг знает о тебе и всё равно остаётся рядом?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q999",
+      "text": "Что дала тебе дружба, которая длится дольше всех?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1000",
+      "text": "Кого из родных ты приводишь в пример другим?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1001",
+      "text": "Кому из родни твоего поколения тебе хочется сказать спасибо?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1002",
+      "text": "Какое умение передалось тебе по наследству?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1003",
+      "text": "Как в вашей семье проявляют нежность?",
+      "categoryId": "kin",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1004",
+      "text": "Что вы построили вместе как семья?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1005",
+      "text": "Чьё мнение среди друзей для тебя весомее прочих?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1006",
+      "text": "Благодаря кому случилось знакомство, изменившее твою жизнь?",
+      "categoryId": "friendship",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1007",
+      "text": "Кому ты хочешь сказать, что гордишься им?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1008",
+      "text": "Чья вера в тебя оказалась сильнее твоей собственной?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1009",
+      "text": "Что в родителях открылось тебе с возрастом как достоинство?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q1010",
+      "text": "Что твоя семья сделала для тебя ценой собственных планов?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "family"
+      ]
+    },
+    {
+      "id": "q1011",
+      "text": "Какую семейную черту тебе хочется сохранить в детях?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "kids"
+      ]
+    },
+    {
+      "id": "q1012",
+      "text": "Какой момент с родными ты будешь помнить до конца?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1013",
+      "text": "Какое качество друга ты уважаешь, но вслух не называешь?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1014",
+      "text": "Чья доброта дошла до тебя слишком поздно?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1015",
+      "text": "Что в твоём ребёнке восхищает тебя больше всего?",
+      "categoryId": "kin",
+      "depth": 3,
+      "sensitivityTags": [
+        "kids"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "q1016",
+      "text": "Кто из друзей стал для тебя примером в чём-то важном?",
+      "categoryId": "friendship",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1017",
+      "text": "Что в твоём доме радует глаз?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1018",
+      "text": "Кому ты звонишь, когда тревожно?",
+      "categoryId": "fears",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1019",
+      "text": "Чем хорош твой нынешний возраст?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1020",
+      "text": "Какой вечер дома ты назовёшь удачным?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1021",
+      "text": "Что помогло тебе однажды справиться со страхом?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1022",
+      "text": "Кто помог тебе пережить потерю?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1023",
+      "text": "После чего дом кажется тебе особенно уютным?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1024",
+      "text": "Какой страх стал меньше с годами?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1025",
+      "text": "Как ты вспоминаешь тех, кого больше нет?",
+      "categoryId": "finitude",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1026",
+      "text": "В какое время дом нравится тебе больше всего?",
+      "categoryId": "home",
+      "depth": 1,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1027",
+      "text": "Что придаёт тебе смелости, когда решиться трудно?",
+      "categoryId": "fears",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1028",
+      "text": "Что вернуло тебе вкус к жизни после тяжёлой потери?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1029",
+      "text": "Что в доме напоминает тебе о хороших временах?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1030",
+      "text": "Как ты живёшь рядом со страхом, который никуда не денется?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1031",
+      "text": "Что примиряет тебя с тем, что всё однажды закончится?",
+      "categoryId": "finitude",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1032",
+      "text": "Ради чего тебе хочется поскорее вернуться домой?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1033",
+      "text": "Чему тебя научил самый большой твой страх?",
+      "categoryId": "fears",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1034",
+      "text": "Какую вещь в доме ты бережёшь больше прочих?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1035",
+      "text": "Какая перемена в доме тебя обрадовала?",
+      "categoryId": "home",
+      "depth": 2,
+      "sensitivityTags": []
+    },
+    {
+      "id": "q1036",
+      "text": "Что твой дом даёт тебе такого, чего не даст никакое другое место?",
+      "categoryId": "home",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1037",
+      "text": "Что в твоём деле стоило всех трудностей?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1038",
+      "text": "Что работа открыла в тебе неожиданного?",
+      "categoryId": "calling",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1039",
+      "text": "За что тебе хочется сказать спасибо своему детству?",
+      "categoryId": "childhood",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1040",
+      "text": "Кто из взрослых стал для тебя опорой в детстве?",
+      "categoryId": "childhood",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1041",
+      "text": "С каким своим чувством тебе удалось помириться?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1042",
+      "text": "Какое чувство ты больше не стыдишься показывать?",
+      "categoryId": "feelings",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1043",
+      "text": "Чьё прощение оказалось для тебя важнее собственного?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1044",
+      "text": "Что в тебе появилось благодаря неудачам?",
+      "categoryId": "mistakes",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1046",
+      "text": "Что оказалось для тебя дороже денег?",
+      "categoryId": "money",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1047",
+      "text": "Какое своё правило ты не нарушишь никогда?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1048",
+      "text": "Что помогает тебе оставаться собой, когда давят?",
+      "categoryId": "values",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1049",
+      "text": "Какая несбывшаяся мечта оказалась к лучшему?",
+      "categoryId": "dreams",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    },
+    {
+      "id": "q1050",
+      "text": "Что в себе тебе удалось полюбить не сразу?",
+      "categoryId": "self",
+      "depth": 3,
+      "sensitivityTags": [],
+      "tier": "core"
+    }
+  ]
+}

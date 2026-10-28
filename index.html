@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- Подставляется флагом `flutter build web --base-href /vpolgolosa/`:
+       сайт живёт не в корне домена, а в папке проекта на github.io. -->
+  <base href="/vpolgolosa/">
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Вопросы для разговора с собой и с близкими.">
+
+  <!-- Набор вопросов виден любому, у кого есть ссылка, — это принято
+       (docs/web-version.md, 6.3). Поисковикам его не отдаём: robots.txt на
+       github.io лежит в корне домена, не нашего, поэтому только мета-тег. -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Цвет строки состояния и фона до первого кадра — «Тёплый графит», как у
+       Android-сборки (values/colors.xml): иначе загрузка начинается белой
+       вспышкой. -->
+  <meta name="theme-color" content="#141210">
+
+  <!-- iPhone: «На экран „Домой“» открывает сайт без панелей Safari. -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Вполголоса">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <title>Вполголоса</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #141210;
+    }
+
+    /* Первая загрузка — несколько мегабайт. Знак приложения посередине
+       говорит, что страница жива; убирает его flutter_bootstrap.js. */
+    #loading {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #loading img {
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      animation: breathe 1.8s ease-in-out infinite;
+    }
+
+    @keyframes breathe {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading"><img src="icons/Icon-192.png" alt=""></div>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
